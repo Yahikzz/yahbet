@@ -1,1 +1,20 @@
-// Conteúdo de exemplo para crash.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Crash - YahBet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>Crash - YahBet</header>
+  <div class="container">
+    <p>Saldo: R$ <span id="saldo">0.00</span></p>
+    <input id="valorAposta" placeholder="Aposta" type="number" step="0.01" min="0.5">
+    <button id="btnStart">Iniciar</button>
+    <button id="btnSacar" disabled>Sacar</button>
+    <p>Multiplicador: <span id="multiplicador">1.00×</span></p>
+    <canvas id="grafico" width="600" height="200"></canvas>
+  </div>
+  <script src="js/crash.js"></script>
+</body>
+</html>
