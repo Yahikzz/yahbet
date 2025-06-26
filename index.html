@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YahBet - Cassino Virtual</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="login-section">
+  <h1>YahBet</h1>
+  <input id="username" placeholder="Usuário">
+  <input id="password" type="password" placeholder="Senha">
+  <button id="btn-login">Entrar</button>
+  <button id="btn-register">Cadastrar</button>
+  <p id="msg-login"></p>
+</div>
+
+<div id="casino-section" style="display:none;">
+  <header>
+    <h2 id="casino-name">YahBet</h2>
+    <div>Usuário: <span id="user-name"></span> | Saldo: <span id="user-saldo"></span></div>
+    <button id="btn-logout">Sair</button>
+  </header>
+
+  <nav id="menu">
+    <a href="crash.html" target="_blank">Crash</a>
+    <a href="tigrinho.html" target="_blank">Tigrinho</a>
+    <a href="double.html" target="_blank">Double</a>
+    <button data-game="pix">Depósito Pix</button>
+    <button data-game="saque">Saque</button>
+  </nav>
+
+  <section id="game-area"></section>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
