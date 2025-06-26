@@ -1,1 +1,13 @@
-// Conteúdo de exemplo para package.json
+{
+  "name": "yahbet",
+  "version": "1.0.0",
+  "description": "Cassino YahBet - backend Node.js com Express",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
